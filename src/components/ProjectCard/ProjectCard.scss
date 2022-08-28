@@ -1,0 +1,18 @@
+@import "../../styles/sass/global/boilerplate";
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+  transition: 0.5s;
+  padding: 1rem;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: -5px -5px 10px 0 black, 5px 5px 10px 0 black;
+  color: $primary-color;
+}

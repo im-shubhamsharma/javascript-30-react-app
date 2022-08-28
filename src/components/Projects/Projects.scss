@@ -1,0 +1,21 @@
+@import "../../styles/sass/global/boilerplate";
+
+.projects-container{
+    width: 80%;
+    margin: 10vh auto;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+
+    .link{
+        color: $secondary-color;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .projects-container{
+        margin-top: 16vh;
+    }
+}

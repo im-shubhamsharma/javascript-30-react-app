@@ -1,0 +1,41 @@
+@import "../../styles/sass/global/boilerplate";
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color :$primary-color;
+    padding: 1rem;
+}
+
+.header {
+//   border-bottom: 2px solid $text-color;
+
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 1rem 0;
+  gap: 5rem;
+  font-size: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  .link {
+    color: $primary-color;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+    .header{
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+        
+    }
+}

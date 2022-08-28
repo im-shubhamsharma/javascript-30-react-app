@@ -1,0 +1,54 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding: 3rem;
+  background: url("../src/components/challenges/JSDrumKit/background.jpg") bottom center;
+  background-size: cover;
+  position: relative;
+  border: 2px solid #f9dc5c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.keys {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 7rem;
+  /* height: 5rem; */
+  text-align: center;
+  transition: all 0.07s ease;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  /* box-shadow: 0 0 1rem #ffc600; */
+  box-shadow: -3px -3px 10px 0 #f9dc5c, 3px 3px 10px 0 #e84855;
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+.sound {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #e84855;
+}

@@ -1,0 +1,87 @@
+.clock-container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding: 3rem;
+  position: relative;
+  border: 2px solid #f9dc5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.analog-clock {
+  border: 10px solid white;
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+  transform: rotate(90deg);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-face {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 26rem;
+  height: 26rem;
+}
+
+.hour,
+.minutes,
+.seconds {
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  width: 13rem;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour {
+  border: 5px solid red;
+}
+
+.minutes {
+  border: 4px solid green;
+}
+
+.seconds {
+  border: 2px solid yellow;
+}
+
+@media screen and (max-width: 480px) {
+  .clock-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .analog-clock {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+  }
+  .clock-face {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 20rem;
+    height: 20rem;
+  }
+  .hour,
+  .minutes,
+  .seconds {
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    width: 9rem;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  background-color: #1B2430;
+  color: #e84855;
+  font-family: "Montserrat", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:focus, .link:hover, .link:visited, .link:link, .link:active {
+  text-decoration: none;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F9DC5C;
+  border-radius: 10px;
+  transition: 0.5s;
+  padding: 1rem;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: -5px -5px 10px 0 black, 5px 5px 10px 0 black;
+  color: #F9DC5C;
+}/*# sourceMappingURL=ProjectCard.css.map */

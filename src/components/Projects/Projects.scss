@@ -5,7 +5,7 @@
     margin: 10vh auto;
     padding: 5rem 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap:2rem;
 
     .link{
@@ -14,8 +14,9 @@
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 762px){
     .projects-container{
-        margin-top: 16vh;
+        margin-top: 6vh;
+        grid-template-columns: 1fr;
     }
 }

@@ -8,7 +8,12 @@ const projectData = [
     id: 2,
     name: "JS + CSS Clock",
     link: "/clock",
-  }
+  },
+  {
+    id: 3,
+    name: "CSS Variable and JS",
+    link: "/variable",
+  },
 ];
 
 export default projectData;

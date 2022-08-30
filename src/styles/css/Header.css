@@ -6,7 +6,7 @@
 
 body {
   box-sizing: inherit;
-  background-color: #1B2430;
+  background-color: #041C32;
   color: #e84855;
   font-family: "Montserrat", sans-serif;
 }
@@ -45,36 +45,33 @@ a:active {
   top: 0;
   width: 100%;
   height: 10vh;
-  border: 2px solid #F9DC5C;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.header .logo {
-  flex-basis: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-}
-.header nav {
-  flex-basis: 90%;
+  border: 2px solid #ecb365;
   display: flex;
   justify-content: flex-start;
-  margin-left: 10rem;
+  align-items: center;
+}
+.header .logo {
+  flex-basis: 15%;
+  padding: 0 1rem;
+  position: absolute;
+}
+.header nav {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
   align-self: center;
   padding: 1rem 0;
   gap: 5rem;
   font-size: 2rem;
 }
 .header nav .link {
-  color: #F9DC5C;
+  color: #ecb365;
 }
 .header .menu-btn {
   position: absolute;
   top: 1.5rem;
   right: 3rem;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #e84855;
   z-index: 12;
   display: none;
@@ -84,10 +81,14 @@ a:active {
   .header {
     width: 100%;
   }
+  .header .logo {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
   .header nav {
     position: absolute;
     top: 0;
-    background-color: #1B2430;
+    background-color: #041C32;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -95,7 +96,7 @@ a:active {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    border: 2px solid #F9DC5C;
+    border: 2px solid #ecb365;
     transform: translateY(-100%);
     transition: 0.5s;
     margin-left: 0;

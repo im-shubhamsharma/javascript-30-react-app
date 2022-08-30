@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Clock.css";
 
 function Clock(props) {
+
   const [time, setTime] = useState({
     hour: 0,
     minutes: 0,
@@ -20,7 +21,6 @@ function Clock(props) {
     const hour = now.getHours();
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
-    console.log(minutes);
 
     const secondsHand = document.querySelector(".seconds");
     let secondsDegree = (seconds / 60) * 360;
@@ -36,14 +36,16 @@ function Clock(props) {
   }
 
   useEffect(() => {
-    setInterval(clock, 1000);
+    const intervalId = setInterval(clock, 1000);
+
+     return () => clearInterval(intervalId);
   }, []);
 
   return (
     <div className="clock-container">
       <div className="digital-clock">
         <h1>
-          {time.hour < 10 ? `0${time.hour} ` : `time.hour `} :
+          {time.hour < 10 ? `0${time.hour} ` : `${time.hour}`} :
           {time.minutes < 10 ? ` 0${time.minutes}` : ` ${time.minutes}`} :
           {time.seconds < 10 ? ` 0${time.seconds}` : ` ${time.seconds}`}
         </h1>

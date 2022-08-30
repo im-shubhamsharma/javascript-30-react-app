@@ -6,7 +6,7 @@
 
 body {
   box-sizing: inherit;
-  background-color: #1B2430;
+  background-color: #041C32;
   color: #e84855;
   font-family: "Montserrat", sans-serif;
 }
@@ -45,7 +45,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #F9DC5C;
+  border: 1px solid #ecb365;
   border-radius: 10px;
   transition: 0.5s;
   padding: 1rem;
@@ -54,5 +54,5 @@ a:active {
 .project-card:hover {
   transform: scale(1.05);
   box-shadow: -5px -5px 10px 0 black, 5px 5px 10px 0 black;
-  color: #F9DC5C;
+  color: #ecb365;
 }/*# sourceMappingURL=ProjectCard.css.map */

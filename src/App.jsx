@@ -4,6 +4,7 @@ import Projects from "./components/Projects/Projects";
 import JSDrumKit from "./components/challenges/JSDrumKit/JSDrumKit";
 import Clock from "./components/challenges/Clock/Clock";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
+import CSSvariableAndJS from "./components/challenges/CSSvariableAndJS/CSSvariableAndJS";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           }
         />
         <Route path="/JSDrumKit" element={<JSDrumKit />} />
-        <Route path="/clock" element={<Clock />} />
+        <Route path="/clock" start={true} element={<Clock />} />
+        <Route path="/variable" element={<CSSvariableAndJS />} />
       </Routes>
     </div>
   );

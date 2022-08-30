@@ -23,3 +23,8 @@ This repository is created to practice React and JavaScript Concepts I have lear
 
 - Projects Completed - Drum Kit & JS+CSS Clock </br>
 - Practice/Learnings - Key and transitionend events, Audio element in HTML, DOM selectors, Date Object, ForEach Loop, Array.from(create a shallow copy of an array), CSS transform and transition </br>
+
+### Day 2 - Aug 30, 2022 </br>
+
+- Projects Completed - Update CSS Variables with JS </br>
+- Practice/Learnings - Change and mousemove events, input type - range and color, style.setProperty, document.documentElement, dataset in JS.  </br>

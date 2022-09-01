@@ -28,3 +28,8 @@ This repository is created to practice React and JavaScript Concepts I have lear
 
 - Projects Completed - Update CSS Variables with JS </br>
 - Practice/Learnings - Change and mousemove events, input type - range and color, style.setProperty, document.documentElement, dataset in JS.  </br>
+
+### Day 3 - September 1, 2022 </br>
+
+- Projects Completed - Array Cardio Day 1
+- Practice/Learning - Array methods - map, filter, reduce and sort, rest and spread operators.

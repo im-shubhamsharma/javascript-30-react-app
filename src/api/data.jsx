@@ -14,6 +14,11 @@ const projectData = [
     name: "CSS Variable and JS",
     link: "/variable",
   },
+  {
+    id: 4,
+    name: "Array Cardio Day 1",
+    link: "/array1",
+  },
 ];
 
 export default projectData;

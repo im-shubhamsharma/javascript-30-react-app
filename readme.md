@@ -33,3 +33,8 @@ This repository is created to practice React and JavaScript Concepts I have lear
 
 - Projects Completed - Array Cardio Day 1
 - Practice/Learning - Array methods - map, filter, reduce and sort, rest and spread operators.
+
+### Day 4 - September 4, 2022 </br>
+
+- Projects Completed - Flex Panel Image Gallery
+- Practice/Learning - Flexbox and its property in CSS.

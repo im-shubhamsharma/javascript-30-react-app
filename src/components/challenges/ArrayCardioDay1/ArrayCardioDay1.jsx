@@ -7,6 +7,8 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
+  border: 2px solid #f9dc5c;
 `;
 
 function ArrayCardioDay1(props) {

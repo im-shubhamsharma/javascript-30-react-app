@@ -19,6 +19,11 @@ const projectData = [
     name: "Array Cardio Day 1",
     link: "/array1",
   },
+  {
+    id: 5,
+    name: "Flex Panel Image Gallery",
+    link: "/flexPanel",
+  },
 ];
 
 export default projectData;

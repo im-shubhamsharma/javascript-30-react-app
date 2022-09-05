@@ -1,6 +1,7 @@
 @import "../../styles/sass/global/boilerplate";
 
 .header {
+  background-color: $bg-color;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,6 +10,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 100;
 
   .logo {
     flex-basis:15%;
@@ -44,6 +46,7 @@
 @media screen and (max-width: 762px) {
   .header {
     width: 100%;
+    z-index: 100;
 
     .logo {
       font-size: 2rem;

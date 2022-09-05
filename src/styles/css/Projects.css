@@ -45,7 +45,7 @@ a:active {
   margin: 10vh auto;
   padding: 5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 .projects-container .link {
@@ -56,5 +56,6 @@ a:active {
   .projects-container {
     margin-top: 6vh;
     grid-template-columns: 1fr;
+    z-index: -1;
   }
 }/*# sourceMappingURL=Projects.css.map */

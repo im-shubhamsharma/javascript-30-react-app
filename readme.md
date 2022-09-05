@@ -38,3 +38,8 @@ This repository is created to practice React and JavaScript Concepts I have lear
 
 - Projects Completed - Flex Panel Image Gallery
 - Practice/Learning - Flexbox and its property in CSS.
+
+### Day 5 - September 5, 2022 </br>
+
+- Projects Completed - Ajax Type Ahead
+- Practice/Learning - Fetch API

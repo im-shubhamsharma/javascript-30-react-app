@@ -83,6 +83,7 @@ a:active {
 }
 
 .header {
+  background-color: #041C32;
   position: fixed;
   top: 0;
   width: 100%;
@@ -91,6 +92,7 @@ a:active {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 100;
 }
 .header .logo {
   flex-basis: 15%;
@@ -122,6 +124,7 @@ a:active {
 @media screen and (max-width: 762px) {
   .header {
     width: 100%;
+    z-index: 100;
   }
   .header .logo {
     font-size: 2rem;
@@ -202,7 +205,7 @@ a:active {
   margin: 10vh auto;
   padding: 5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 .projects-container .link {
@@ -213,6 +216,7 @@ a:active {
   .projects-container {
     margin-top: 6vh;
     grid-template-columns: 1fr;
+    z-index: -1;
   }
 }
 * {

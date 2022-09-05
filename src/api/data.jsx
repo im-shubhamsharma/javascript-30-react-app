@@ -24,6 +24,11 @@ const projectData = [
     name: "Flex Panel Image Gallery",
     link: "/flexPanel",
   },
+  {
+    id: 6,
+    name: "Ajax Type Ahead",
+    link: "/ajaxType",
+  },
 ];
 
 export default projectData;

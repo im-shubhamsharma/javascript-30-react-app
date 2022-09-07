@@ -13,12 +13,13 @@
   box-sizing: border-box;
 }
 
-.body {
+.bodyContainer {
   background-color: var(--bg-color);
   color: var(--primart-color);
+  box-sizing: border-box;
 }
 
-.main {
+.mainContainer {
   border: 2px solid var(--primart-color);
   width: 100%;
   height: 100vh;
@@ -52,6 +53,11 @@ h1 span {
   font-size: 2rem;
 }
 
+.input-range{
+  width: 100%;
+  accent-color: var(--base);
+}
+
 .image {
   border: 2px solid var(--primart-color);
   background-color: var(--base);
@@ -72,7 +78,9 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-  .main {
+  .mainContainer {
+    padding: 1.5rem;
+    gap: 2rem;
   }
 
   .input {
@@ -80,7 +88,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   .input label {
     font-size: 1.5rem;

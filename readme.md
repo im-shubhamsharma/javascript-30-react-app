@@ -43,3 +43,8 @@ This repository is created to practice React and JavaScript Concepts I have lear
 
 - Projects Completed - Ajax Type Ahead
 - Practice/Learning - Fetch API
+
+### Day 6 - September 7, 2022 </br>
+
+- Projects Completed - Array Cardio Day 2
+- Practice/Learning - Array.some(), Array.every(), Array.find(), Array.findIndex(), Array.splice()

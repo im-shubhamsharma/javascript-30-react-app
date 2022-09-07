@@ -36,8 +36,8 @@ function CSSvariableAndJS(props) {
   });
 
   return (
-    <div className="body">
-      <div className="main">
+    <div className="bodyContainer">
+      <div className="mainContainer">
         <h1>
           Update <span className="title">CSS</span> Variables with{" "}
           <span className="title">JS</span>
@@ -47,6 +47,7 @@ function CSSvariableAndJS(props) {
           <label>
             Width&nbsp;&nbsp;
             <input
+              className="input-range"
               type="range"
               name="width"
               min="0"
@@ -90,6 +91,7 @@ function CSSvariableAndJS(props) {
               name="base"
               value={inputData.base}
               onChange={handleChange}
+              style={{height:"40px", padding:0, border:"none"}}
             />
           </label>
         </div>

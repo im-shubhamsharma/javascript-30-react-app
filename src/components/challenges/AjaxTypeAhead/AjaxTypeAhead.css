@@ -1,11 +1,13 @@
-.body {
+.ajaxConatainer {
   box-sizing: border-box;
-  background: #ffc600;
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
   height: 100vh;
   width: 100%;
+  border: 2px solid #f9dc5c;
+  padding-top: 5rem;
+  overflow: hidden;
 }
 
 input {

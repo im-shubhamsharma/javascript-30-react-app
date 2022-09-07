@@ -46,7 +46,7 @@ function AjaxTypeAhead(props) {
   ));
 
   return (
-    <div className="body">
+    <div className="ajaxConatainer">
       <form className="search-form">
         <input
           type="text"

@@ -29,6 +29,11 @@ const projectData = [
     name: "Ajax Type Ahead",
     link: "/ajaxType",
   },
+  {
+    id: 7,
+    name: "Array Cardio Day 2",
+    link: "/array2",
+  },
 ];
 
 export default projectData;

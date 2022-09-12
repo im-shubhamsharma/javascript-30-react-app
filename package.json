@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^7.3.2",
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,5 +22,17 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
     "vite": "^3.0.7"
-  }
+  },
+  "description": "> Course created by [Wes Bos](https://github.com/wesbos). Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-shubhamsharma/javascript-30-react-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im-shubhamsharma/javascript-30-react-app/issues"
+  },
+  "homepage": "https://github.com/im-shubhamsharma/javascript-30-react-app#readme"
 }

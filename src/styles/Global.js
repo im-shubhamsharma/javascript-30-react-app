@@ -1,9 +1,7 @@
-$bg-color: #041C32;
-$primary-color: #ecb365;
-$secondary-color: #e84855;
-$text-color: #f1efdc;
+import { createGlobalStyle } from "styled-components";
 
-* {
+const GlobalStyles = createGlobalStyle`  
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,8 +9,8 @@ $text-color: #f1efdc;
 
 body {
   box-sizing: inherit;
-  background-color: $bg-color;
-  color: $secondary-color;
+  background-color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.primaryColor};
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,3 +47,6 @@ a:active {
     text-decoration: none;
   }
 }
+`;
+
+export default GlobalStyles;

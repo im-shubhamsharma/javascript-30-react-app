@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./AjaxTypeAhead.css";
+import {AjaxContainer} from "./AjaxTypeAhead.styled.js"
 import { nanoid } from "nanoid";
 
 function AjaxTypeAhead(props) {
@@ -16,7 +16,7 @@ function AjaxTypeAhead(props) {
       .then((response) => setDataArr([...response]));
   }, []);
 
-  function handleChane(e) {
+  function handleChange(e) {
     setSearch(e.target.value);
     filterData(search);
   }
@@ -46,20 +46,19 @@ function AjaxTypeAhead(props) {
   ));
 
   return (
-    <div className="ajaxConatainer">
+    <AjaxContainer>
       <form className="search-form">
         <input
           type="text"
           className="search"
           placeholder="City or State"
-          onChange={handleChane}
+          onChange={handleChange}
           value={search}
         />
 
         <ul className="suggestions">
           {search.length === 0 && (
             <>
-              {" "}
               <li>Filter for a city</li>
               <li>or a state</li>
             </>
@@ -67,7 +66,7 @@ function AjaxTypeAhead(props) {
           {search.length > 0 && filterDataElem}
         </ul>
       </form>
-    </div>
+    </AjaxContainer>
   );
 }
 

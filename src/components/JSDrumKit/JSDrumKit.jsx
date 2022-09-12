@@ -1,16 +1,17 @@
 import React, { useEffect } from "react";
 import "./JSDrumKit.css";
-import boom from "../../../assets/sounds/boom.wav"
-import clap from "../../../assets/sounds/clap.wav"
-import hihat from "../../../assets/sounds/hihat.wav"
-import kick from "../../../assets/sounds/kick.wav"
-import openhat from "../../../assets/sounds/openhat.wav"
-import ride from "../../../assets/sounds/ride.wav"
-import snare from "../../../assets/sounds/snare.wav"
-import tink from "../../../assets/sounds/tink.wav"
-import tom from "../../../assets/sounds/tom.wav"
+import boom from "../../assets/sounds/boom.wav"
+import clap from "../../assets/sounds/clap.wav"
+import hihat from "../../assets/sounds/hihat.wav"
+import kick from "../../assets/sounds/kick.wav"
+import openhat from "../../assets/sounds/openhat.wav"
+import ride from "../../assets/sounds/ride.wav"
+import snare from "../../assets/sounds/snare.wav"
+import tink from "../../assets/sounds/tink.wav"
+import tom from "../../assets/sounds/tom.wav"
 
 function JSDrumKit(props) {
+
   function playsound(e) {
     let audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     let key = document.querySelector(`div[data-key="${e.keyCode}"]`);
@@ -46,7 +47,7 @@ function JSDrumKit(props) {
   // window.addEventListener("keyup", removeClass);
 
   return (
-    <div className="main-container">
+    <div className="drumkit-container">
       <div className="keys">
         <div onClick={() => onClickPlay("65")} data-key="65" className="key">
           <kbd>A</kbd>
@@ -85,39 +86,15 @@ function JSDrumKit(props) {
           <span className="sound">tink</span>
         </div>
       </div>
-      <audio
-        data-key="65"
-        src={clap}
-      ></audio>
-      <audio
-        data-key="83"
-        src={hihat}
-      ></audio>
-      <audio
-        data-key="68"
-        src={kick}
-      ></audio>
-      <audio
-        data-key="70"
-        src={openhat}
-      ></audio>
+      <audio data-key="65" src={clap}></audio>
+      <audio data-key="83" src={hihat}></audio>
+      <audio data-key="68" src={kick}></audio>
+      <audio data-key="70" src={openhat}></audio>
       <audio data-key="71" src={boom}></audio>
-      <audio
-        data-key="72"
-        src={ride}
-      ></audio>
-      <audio
-        data-key="74"
-        src={ride}
-      ></audio>
-      <audio
-        data-key="75"
-        src={tom}
-      ></audio>
-      <audio
-        data-key="76"
-        src={tink}
-      ></audio>
+      <audio data-key="72" src={ride}></audio>
+      <audio data-key="74" src={snare}></audio>
+      <audio data-key="75" src={tom}></audio>
+      <audio data-key="76" src={tink}></audio>
     </div>
   );
 }

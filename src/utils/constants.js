@@ -1,4 +1,4 @@
-const projectData = [
+export const projectData = [
   {
     id: 1,
     name: "JS Drum Kit",
@@ -34,12 +34,9 @@ const projectData = [
     name: "Array Cardio Day 2",
     link: "/array2",
   },
+  {
+    id: 8,
+    name: "HTML5 Canvas",
+    link: "/canvas",
+  },
 ];
-
-export default projectData;
-
-// {
-//     id: 2,
-//     name: "JS + CSS Clock",
-//     link: "/Clock",
-//   },

@@ -1,5 +1,4 @@
 :root {
-  --bg-color: #041c32;
   --primart-color: #ecb365;
   --blur: 0;
   --base: #c74b50;
@@ -7,14 +6,7 @@
   --height: 80%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .bodyContainer {
-  background-color: var(--bg-color);
   color: var(--primart-color);
   box-sizing: border-box;
 }
@@ -45,7 +37,7 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   accent-color: var(--base);
 }
 
@@ -54,7 +46,6 @@ h1 span {
 }
 
 .input-range{
-  width: 100%;
   accent-color: var(--base);
 }
 

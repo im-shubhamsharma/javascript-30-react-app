@@ -53,3 +53,9 @@ I have a created a React app for this repo which will contain all javascript 30 
 
 - Projects Completed - HTML5 Canvas
 - Practice/Learning - HTML5 canval element and its properties.
+
+### Day 8</br>
+- Projects Completed - Must Know Dev Tools
+
+### Day 9</br>
+- Projects Completed - Hold Shift & Check Checkboxes && Custom Video Player

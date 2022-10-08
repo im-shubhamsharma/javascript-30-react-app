@@ -13,8 +13,9 @@ export const CardContainer = styled(motion.div)`
   padding: 1rem;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: -5px -5px 10px 0 black, 5px 5px 10px 0 black;
+    color: ${(props) => props.theme.colors.secondaryColor};
   }
 `;
 

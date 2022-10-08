@@ -97,6 +97,7 @@ const DevTools = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          cursor: "pointer",
         }}
         ref={pRef}
         onClick={(e) => {

@@ -44,4 +44,14 @@ export const projectData = [
     name: "Must Know Dev Tools Tricks",
     link: "/devtools",
   },
+  {
+    id: 10,
+    name: "Hold Shift and Check Checkboxes",
+    link: "/holdShift",
+  },
+  {
+    id: 11,
+    name: "Custom Video Player",
+    link: "/customvideoplayer",
+  },
 ];

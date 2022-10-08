@@ -8,6 +8,7 @@ import FlexPanel from "../components/FlexPanels/FlexPanel";
 import AjaxTypeAhead from "../components/AjaxTypeAhead/AjaxTypeAhead";
 import ArrayCardioDay2 from "../components/ArrayCardioDay2/ArrayCardioDay2"
 import HtmlCanvas from "../components/HtmlCanvas/HtmlCanvas";
+import DevTools from "../components/Must Know Dev Tools Tricks/DevTools";
 
 import React from "react";
 
@@ -23,6 +24,7 @@ const AllRoutes = () => {
       <Route path="/ajaxType" element={<AjaxTypeAhead />} />;
       <Route path="/array2" element={<ArrayCardioDay2 />} />;
       <Route path="/canvas" element={<HtmlCanvas />} />;
+      <Route path="/devtools" element={<DevTools />} />;
     </Routes>
   );
 };

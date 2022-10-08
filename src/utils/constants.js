@@ -39,4 +39,9 @@ export const projectData = [
     name: "HTML5 Canvas",
     link: "/canvas",
   },
+  {
+    id: 9,
+    name: "Must Know Dev Tools Tricks",
+    link: "/devtools",
+  },
 ];
